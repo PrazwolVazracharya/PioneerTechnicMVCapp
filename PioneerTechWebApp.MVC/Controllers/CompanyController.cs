@@ -18,6 +18,7 @@ namespace PioneerTechWebApp.MVC.Controllers
             ViewBag.ReturnMessage = string.Empty;
             ViewBag.EmployeeID = new SelectList(employeeDataAccessLayerObject.GetEmployeeID(), "EmployeeID", "EmployeeID");
             return View();
+            
         }
 
         // POST: Company/SaveData
